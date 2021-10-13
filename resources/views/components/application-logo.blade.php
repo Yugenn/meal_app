@@ -1,1 +1,1 @@
-<h1 class="text-lg">meal_app</h1>
+<h1 class="text-lg">食事投稿アプリ</h1>
