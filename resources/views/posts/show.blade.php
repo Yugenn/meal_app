@@ -19,11 +19,16 @@
                 経過時間:<?php $interval = strtotime(date('Y-m-d H:i:s')) - strtotime($post->created_at); ?>
 
                 @if ($interval < 60)
-                    {{ $interval }} 秒
-            @elseif ($interval < 3600) {{ floor($interval / 60) }} 分 @elseif ($interval < 86400)
-                {{ floor($interval / (60 * 60)) }} 時間 @elseif ($interval < 604800)
-                {{ floor($interval / (24 * 60 * 60)) }} 日 @else {{ floor($interval / (30 * 24 * 60 * 60)) }}
-                    ヶ月 @endif
+                        {{ $interval }} 秒
+                    @elseif ($interval < 3600) 
+                        {{ floor($interval / 60) }} 分 
+                    @elseif ($interval < 86400)
+                        {{ floor($interval / (60 * 60)) }} 時間 
+                    @elseif ($interval < 604800)
+                        {{ floor($interval / (24 * 60 * 60)) }} 日 
+                    @else 
+                        {{ floor($interval / (30 * 24 * 60 * 60)) }}ヶ月 
+                @endif
 
         </p>
         <img src="{{ $post->image_url }}" alt="" class="mb-4">
