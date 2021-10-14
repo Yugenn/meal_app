@@ -80,12 +80,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ### 詳細画面
 <img width="1280" alt="詳細画面" src="https://user-images.githubusercontent.com/89439437/137258296-6fae74b3-a28f-4d3c-8cb6-3c4e395b4182.png">
 
+### 詳細画面(ゲスト)
+<img width="1280" alt="ゲスト詳細画面" src="https://user-images.githubusercontent.com/89439437/137263222-513e9772-d15d-43c8-a405-99fa084c71e3.png">
+
 ### 新規登録画面
 <img width="1280" alt="投稿画面" src="https://user-images.githubusercontent.com/89439437/137258371-2902d30e-ec1e-4fd5-abca-84847934a795.png">
 
 ### 新規登録画面エラー表示
 <img width="1280" alt="投稿画面(エラー表示)" src="https://user-images.githubusercontent.com/89439437/137258435-9d16306e-374e-4208-b565-aaa5fb680774.png">
-
 
 ### 編集画面
 <img width="1280" alt="編集画面" src="https://user-images.githubusercontent.com/89439437/137258508-e5a1c2c4-a7de-4f99-83a7-c9f5720c1d87.png">
