@@ -72,14 +72,23 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## 画面
 ### 一覧画面
-<img width="1280" alt="一覧" src="https://user-images.githubusercontent.com/89439437/136316760-874a6ccf-53bb-4c9d-9056-4727d7dd9e80.png">
+<img width="1280" alt="一覧画面" src="https://user-images.githubusercontent.com/89439437/137258212-9c11957e-c6b2-4219-8fe8-ccd49fe9fdce.png">
+
+### 一覧画面(ゲスト)
+<img width="1280" alt="ゲスト一覧画面" src="https://user-images.githubusercontent.com/89439437/137258671-12c3b9b1-4c23-4c50-a70f-c3cb4c1e3fc4.png">
 
 ### 詳細画面
-<img width="1280" alt="詳細" src="https://user-images.githubusercontent.com/89439437/136316860-1d50e7e1-ee3e-474b-b41d-b3729feba5a6.png">
-
+<img width="1280" alt="詳細画面" src="https://user-images.githubusercontent.com/89439437/137258296-6fae74b3-a28f-4d3c-8cb6-3c4e395b4182.png">
 
 ### 新規登録画面
-<img width="1280" alt="新規登録" src="https://user-images.githubusercontent.com/89439437/136316912-79fa3ef2-59ee-4369-b92e-f9433a33d4fd.png">
+<img width="1280" alt="投稿画面" src="https://user-images.githubusercontent.com/89439437/137258371-2902d30e-ec1e-4fd5-abca-84847934a795.png">
+
+### 新規登録画面エラー表示
+<img width="1280" alt="投稿画面(エラー表示)" src="https://user-images.githubusercontent.com/89439437/137258435-9d16306e-374e-4208-b565-aaa5fb680774.png">
+
 
 ### 編集画面
-<img width="1280" alt="更新" src="https://user-images.githubusercontent.com/89439437/136316960-d7aa95f8-f91f-4269-8fe8-dd18223fa448.png">
+<img width="1280" alt="編集画面" src="https://user-images.githubusercontent.com/89439437/137258508-e5a1c2c4-a7de-4f99-83a7-c9f5720c1d87.png">
+
+### 編集画面エラー表示
+<img width="1280" alt="編集画面(エラー表示)" src="https://user-images.githubusercontent.com/89439437/137258566-986fd391-b771-42d4-b0bd-b0e4ba7a3159.png">
