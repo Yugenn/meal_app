@@ -30,7 +30,7 @@ Route::resource('posts', PostController::class)
 
 // いいねボタン
 Route::resource('posts.likes', LikeController::class)
-->only(['store', 'destroy'])
-->middleware('auth');
+    ->only(['store', 'destroy'])
+    ->middleware('auth');
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

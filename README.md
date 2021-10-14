@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -61,4 +61,25 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+
+# 食事投稿アプリ
+
+## アプリの概要
+- 食事を投稿できるアプリ
+- 食事を閲覧、編集、更新することができます。
+
+
+## 画面
+### 一覧画面
+<img width="1280" alt="一覧" src="https://user-images.githubusercontent.com/89439437/136316760-874a6ccf-53bb-4c9d-9056-4727d7dd9e80.png">
+
+### 詳細画面
+<img width="1280" alt="詳細" src="https://user-images.githubusercontent.com/89439437/136316860-1d50e7e1-ee3e-474b-b41d-b3729feba5a6.png">
+
+
+### 新規登録画面
+<img width="1280" alt="新規登録" src="https://user-images.githubusercontent.com/89439437/136316912-79fa3ef2-59ee-4369-b92e-f9433a33d4fd.png">
+
+### 編集画面
+<img width="1280" alt="更新" src="https://user-images.githubusercontent.com/89439437/136316960-d7aa95f8-f91f-4269-8fe8-dd18223fa448.png">

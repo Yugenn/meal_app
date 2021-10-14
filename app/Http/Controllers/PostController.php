@@ -47,7 +47,7 @@ class PostController extends Controller
         $post->user_id = $request->user()->id;
         $file = $request->file('image');
         $post->image = self::createFileName($file);
-        
+
         // トランザクション開始
         DB::beginTransaction();
         try {
@@ -188,6 +188,4 @@ class PostController extends Controller
     {
         return date('YmdHis') . '_' . $file->getClientOriginalName();
     }
-
-
 }
