@@ -27,4 +27,9 @@ Route::resource('posts', PostController::class)
 Route::resource('posts', PostController::class)
     ->only(['show', 'index']);
 
+// いいねボタン
+Route::resource('posts.likes', LikeController::class)
+->only(['store', 'destroy'])
+->middleware('auth');
+
 require __DIR__.'/auth.php';
