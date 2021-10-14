@@ -21,7 +21,7 @@ class Post extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function nices()
+    public function likes()
     {
         return $this->hasMany(Like::class);
     }
@@ -33,9 +33,9 @@ class Post extends Model
 
     public function getImageUrlAttribute()
     {
-            return Storage::url($this->image_path);
+        return Storage::url($this->image_path);
     }
-    
+
     public function getImagePathAttribute()
     {
         return 'images/posts/' . $this->image;

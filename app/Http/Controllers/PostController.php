@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\PostRequest;
+use App\Models\Like;
 use App\Models\Post;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
@@ -79,7 +81,12 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-        return view('posts.show', compact('post'));
+        $like = Like::with('post')
+            ->where('post_id', $post->id)
+            ->where('user_id', auth()->user()->id)
+            ->first();
+
+        return view('posts.show', compact('post', 'like'));
     }
 
     /**
