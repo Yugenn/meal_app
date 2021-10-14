@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -61,4 +61,36 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+
+# 食事投稿アプリ
+
+## アプリの概要
+- 食事を投稿できるアプリ
+- 食事を閲覧、編集、更新することができます。
+
+
+## 画面
+### 一覧画面
+<img width="1280" alt="一覧画面" src="https://user-images.githubusercontent.com/89439437/137258212-9c11957e-c6b2-4219-8fe8-ccd49fe9fdce.png">
+
+### 一覧画面(ゲスト)
+<img width="1280" alt="ゲスト一覧画面" src="https://user-images.githubusercontent.com/89439437/137258671-12c3b9b1-4c23-4c50-a70f-c3cb4c1e3fc4.png">
+
+### 詳細画面
+<img width="1280" alt="詳細画面" src="https://user-images.githubusercontent.com/89439437/137258296-6fae74b3-a28f-4d3c-8cb6-3c4e395b4182.png">
+
+### 詳細画面(ゲスト)
+<img width="1280" alt="ゲスト詳細画面" src="https://user-images.githubusercontent.com/89439437/137263222-513e9772-d15d-43c8-a405-99fa084c71e3.png">
+
+### 新規登録画面
+<img width="1280" alt="投稿画面" src="https://user-images.githubusercontent.com/89439437/137258371-2902d30e-ec1e-4fd5-abca-84847934a795.png">
+
+### 新規登録画面エラー表示
+<img width="1280" alt="投稿画面(エラー表示)" src="https://user-images.githubusercontent.com/89439437/137258435-9d16306e-374e-4208-b565-aaa5fb680774.png">
+
+### 編集画面
+<img width="1280" alt="編集画面" src="https://user-images.githubusercontent.com/89439437/137258508-e5a1c2c4-a7de-4f99-83a7-c9f5720c1d87.png">
+
+### 編集画面エラー表示
+<img width="1280" alt="編集画面(エラー表示)" src="https://user-images.githubusercontent.com/89439437/137258566-986fd391-b771-42d4-b0bd-b0e4ba7a3159.png">
